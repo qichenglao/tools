@@ -1,0 +1,9 @@
+ubuntu:
+$ sudo apt install macchanger
+$ sudo macchanger enpls0 -r
+$ sudo service network-manager restart
+$ sudo teamviewer --daemon start
+
+
+mac:
+$ sudo codesign -f -s - /Applications/TeamViewer.app/ T
